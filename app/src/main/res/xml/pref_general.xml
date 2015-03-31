@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="HostName"
+        android:key="hostName"
+        android:defaultValue="192.168.43.138"
+        android:inputType="text"
+        android:singleLine="true"
+        android:summary="Enter your hostname:">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="ID:"
+        android:key="id"
+        android:defaultValue="pi"
+        android:inputType="text"
+        android:singleLine="true"
+        android:summary="Enter your ID:">
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:title="Password:"
+        android:key="password"
+        android:defaultValue="software"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:summary="Enter your password:">
+    </EditTextPreference>
+
+</PreferenceScreen>
